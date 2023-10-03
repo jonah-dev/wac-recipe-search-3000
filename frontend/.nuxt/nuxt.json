@@ -1,0 +1,9 @@
+{
+  "_hash": "f2jMfTvlRQ_8uosDi4J3UfQdar-fx9WyArzQQ-cm59Y",
+  "project": {
+    "rootDir": "/var/www/html/frontend"
+  },
+  "versions": {
+    "nuxt": "3.17.3"
+  }
+}
