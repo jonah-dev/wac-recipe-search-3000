@@ -1,0 +1,2 @@
+[UHHH] Add a tests to account for corner cases where slugs generated from names aren't properly html encoded
+[DONE] Add a test to resolve bug where author and keyword aren't properly filtering

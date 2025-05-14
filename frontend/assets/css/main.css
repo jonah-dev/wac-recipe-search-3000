@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --color-primary: #0F204B; /* Alaska Blue */
+  --color-secondary: #FFB612; /* Gold */
+  --color-tertiary: #A6192E; /* Sockeye Red */
+  --color-info: #7D9DC3; /* Ice Blue */
+  --color-success: #154734; /* Forest Green */
+  --color-warning: #EAAA00; /* Harvest Gold */
+  --color-error: #E9072B; /* Red Alert */
+  --color-neutral: #7D9DC3; /* Ice Blue */
+}
+
+h1 {
+  @apply text-4xl font-bold text-primary;
+}
+
+h2 {
+  @apply text-3xl font-semibold text-primary;
+}
+
+h3 {
+  @apply text-2xl font-medium text-primary;
+}
+
+p {
+  @apply text-base text-primary;
+}
+
+p {
+  @apply text-base text-primary;
+}
+
+a {
+  @apply text-primary hover:text-secondary  underline;
+  text-decoration-thickness: 2px;
+}
+
+button {
+  @apply bg-primary text-white font-bold py-2 px-4 rounded;
+  &:hover {
+    @apply bg-secondary;
+  }
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
